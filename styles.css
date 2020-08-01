@@ -1,0 +1,82 @@
+body {
+  background: black;
+}
+#symbolContainer {
+  float:right;
+  background-image: url("symbol.png");
+  height: 31.5px;
+  width: 64px;
+}
+#teddy {
+  border: 5px groove rgb(118 73 54);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: -20px;
+}
+#bigCard {
+  border-radius: 30px 30px 30px 30px;
+  margin: auto;
+  border: 15px groove rgb(224 182 43);
+  box-shadow: 10px 10px 4px, rgb(36 45 64);
+  height: 788px;
+  width: 516px;
+  padding: .75em;
+  background-image: url("TDback.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#infoBox {
+  border: 5px groove rgb(118 73 54);
+  height: 300px;
+  width: 490px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#interestingFact {
+  font: italic 14px Georgia, serif;
+  text-align: center;
+  background-image: url("first.png");
+  background-repeat: no-repeat;
+}
+#footer {
+  font: 10px Arial, sans-serif;
+  display: block;
+  float: right;
+}
+h3 {
+  border:5px groove rgb(118 73 54);
+  border-radius: 12px;
+  width: 450px;
+  height: 40px;
+  margin-left: 15px;
+  font: bold 32px Blippo, fantasy;
+  color: rgb(26 15 34);
+  text-shadow: -3px 3px 3px rgb(25 25 25);
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: rgb(36 45 64);
+  text-indent: 10px;
+  padding: inherit;
+}
+li {
+  color: rgb(26 15 34);
+  font: 16px American Typewriter, fantasy;
+  list-style: none;
+}
+p {
+  color: rgb(26 15 34);
+  margin-left: .5em;
+  margin-bottom: .5em;
+  margin-right: 1em;
+}
+span {
+  font: bold 22px American Typewriter, serif;
+  text-decoration: underline;
+  text-decoration-color: rgb(36 45 64);
+  text-shadow: -.75px .5px 2px rgb(25 25 25);
+}
+em {
+  text-emphasis: bold;
+}
