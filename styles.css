@@ -12,7 +12,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
+  margin-bottom: 2px;
   margin-top: -20px;
 }
 #bigCard {
@@ -33,6 +33,8 @@ body {
   width: 490px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 #interestingFact {
   font: italic 14px Georgia, serif;
@@ -41,9 +43,10 @@ body {
   background-repeat: no-repeat;
 }
 #footer {
-  font: 10px Arial, sans-serif;
+  font: italic 10px Arial, sans-serif;
   display: block;
   float: right;
+  margin-right: -4px;
 }
 h3 {
   border:5px groove rgb(118 73 54);
@@ -59,6 +62,7 @@ h3 {
   text-decoration-color: rgb(36 45 64);
   text-indent: 10px;
   padding: inherit;
+  margin-bottom: 22px;
 }
 li {
   color: rgb(26 15 34);
@@ -78,5 +82,5 @@ span {
   text-shadow: -.75px .5px 2px rgb(25 25 25);
 }
 em {
-  text-emphasis: bold;
+  font-variant: small-caps;
 }
